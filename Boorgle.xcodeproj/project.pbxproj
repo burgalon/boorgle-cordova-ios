@@ -463,6 +463,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_DISP_NAME = Boorgle;
+				BUNDLE_IDENTIFIER = com.boorgle.boorgle;
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_OBJCPP_ARC_ABI = YES;
 				COPY_PHASE_STRIP = NO;
@@ -473,6 +475,7 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "Boorgle/Boorgle-Info.plist";
+				INTERNAL_URL_PREFIX = boorgle;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = Boorgle;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -483,6 +486,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_DISP_NAME = Boorgle;
+				BUNDLE_IDENTIFIER = com.boorgle.boorgle;
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_OBJCPP_ARC_ABI = YES;
 				COPY_PHASE_STRIP = YES;
@@ -491,6 +496,7 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "Boorgle/Boorgle-Info.plist";
+				INTERNAL_URL_PREFIX = boorgle;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = Boorgle;
 				TARGETED_DEVICE_FAMILY = "1,2";
