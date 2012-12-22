@@ -24,7 +24,8 @@ CORDOVA_PATH=$( cd "$( dirname "$0" )" && pwd )
 PROJECT_PATH=$CORDOVA_PATH/..
 
 function getAppPath() {
-	for file in "$( find "$PROJECT_PATH" -type d -name '*.xcodeproj' | sort )"; do
+	# for file in "$( find "$PROJECT_PATH" -type d -name '*.xcodeproj' | sort )"; do
+  for file in "$( find "$PROJECT_PATH" -type d \( -name '*.xcodeproj' ! -name '*CordovaLib.xcodeproj' \) | sort )"; do
 	  PROJECT_NAME=$(basename "$file" .xcodeproj)
 	done;
 	APP=build/$PROJECT_NAME.app
